@@ -1,0 +1,414 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <h1>İŞ BAŞVURU FORMU</h1>
+    <!--Kişisel Bilgiler-->
+    <form name="KisiselBilgiler">
+        <fieldset>
+            <legend>Kişisel Bilgiler</legend>
+            <table >
+                <tr >
+                    <td  >Adı</td>
+                    <td>:</td>
+                    <td><input type="text" name="ad"/></td>
+                    
+                </tr>
+                <tr>
+                    <td >Soyadı</td>
+                    <td>:</td>
+                    <td><input type="text" name="soyad" /></td>
+
+                </tr>
+                <tr>
+                    <td >Dogum Tarihi</td>
+                    <td>:</td>
+                    <td><input type="text" name="dogumtarih" placeholder="gg.aa.yyyy" /></td>
+
+                </tr>
+                <tr>
+                    <td>Cinsiyet</td>
+                    <td>:</td>
+                    
+                   <td>
+                    <input type="radio" name="cinsiyet" id="1" /><label>Erkek</label>
+                    <input type="radio" name="cinsiyet" id="2" /><label>Kadın</label>
+                   </td>
+
+                </tr>
+                <tr>
+                    <td>Tc Kimkik No</td>
+                    <td>:</td>
+                    <td><input type="text" name="tc" /></td>
+
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <!--Kişisel Özellklerr-->
+    <form name="KisiselOzellikler">
+        <fieldset>
+            <legend>Kişisel Özellikler</legend>
+            <table>
+                <tr>
+                    <td>Medeni Hali</td>
+                    <td>:</td>
+                    <td>
+                        <select name="MedeniDurum">
+                            <option>Evli</option>
+                            <option>Bekar</option>
+                        </select>
+                    </td>
+
+                </tr>
+      
+        
+                <tr>
+                    <td>Sigara Kullanımı</td>
+                    <td>:</td>
+
+                    <td>
+                        <input type="radio" name="sigara" id="1" /><label>Var</label>
+                        <input type="radio" name="sigara" id="2" /><label>Yok</label>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>Ehliyet</td>
+                    <td>:</td>
+                    <td>
+                        <select name="Ehliyet" size="4">
+                            <option name="Ehliyet" id="a1">A1</option>
+                            <option name="Ehliyet" id="a2">A2</option>
+                            <option name="Ehliyet" id="b">B</option>
+                            <option name="Ehliyet" id="c">C</option>
+                        </select>
+                    </td>
+                </tr>
+
+
+
+
+                <tr>
+                    <td>Sağlık Sorunu</td>
+                    <td>:</td>
+
+                    <td>
+                        <input type="radio" name="saglik" id="1" /><label>Var</label>
+                        <input type="radio" name="salik" id="2" /><label>Yok</label>
+                    </td>
+
+                </tr>
+                
+            </table>
+        </fieldset>
+    </form>
+    <!--Tanıtım-->
+    <form name="Tanitim">
+        <fieldset>
+            <legend>Tanıtım</legend>
+            <table>
+                <tr>
+                    <td>Cv Yükleme</td>
+                    <td>:</td>
+                    <td><input type="file" name="dosya" /></td>
+
+                </tr>
+                <tr>
+                    <td>Soyadı</td>
+                    <td>:</td>
+                    <td ><textarea name="Aciklama" placeholder="Hakkınızda bilmemiz gerekenlerle ilgili kısa bir yazı" cols="30" rows="5"></textarea> </td>
+
+                </tr>
+               
+            </table>
+        </fieldset>
+    </form>
+                 
+    <!--İş Bilgileri-->
+    <form name="is">
+        <fieldset>
+            <legend>İş Bilgisi</legend>
+            <table>
+                <tbody>
+
+                    <tr>
+                        <td>  İş Bilgisi - 1.</td>
+                      
+                    </tr>
+                    <tr>
+                        <td width="100"></td>
+                        <td>Şirket Adı</td>
+                        <td>:</td>
+                        <td><input type="text" name="sirket1" /></td>
+                    </tr>
+                    <tr>
+                        <td width="100"></td>
+                        <td>İşe Giriş Çıkış Tarihi </td>
+                        <td>:</td>
+                        <td>
+                            <input type="text" name="sirket1" placeholder="gg.aa.yyyy" />-
+                            <input type="text" name="sirket1" placeholder="gg.aa.yyyy" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            İş Bilgisi - 2
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td width="100"></td>
+                        <td>Şirket Adı</td>
+                        <td>:</td>
+                        <td><input type="text" name="sirket2" /></td>
+                    </tr>
+                    <tr>
+                        <td width="100"></td>
+                        <td>İşe Giriş Çıkış Tarihi </td>
+                        <td>:</td>
+                        <td>
+                            <input type="text" name="sirket2" placeholder="gg.aa.yyyy" />-
+                            <input type="text" name="sirket2" placeholder="gg.aa.yyyy" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            İş Bilgisi - 3
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td width="100"></td>
+                        <td>Şirket Adı</td>
+                        <td>:</td>
+                        <td><input type="text" name="sirket3" /></td>
+                    </tr>
+                    <tr>
+                        <td width="100"></td>
+                        <td>İşe Giriş Çıkış Tarihi </td>
+                        <td>:</td>
+                        <td>
+                            <input type="text" name="sirket3" placeholder="gg.aa.yyyy" />-
+                            <input type="text" name="sirket3" placeholder="gg.aa.yyyy" />
+                        </td>
+                    </tr>
+
+                </tbody>
+                
+                
+
+            </table>
+        </fieldset>
+    </form>
+    <!--Eğitim Bilgileri-->
+    <form name="egitim">
+        <fieldset>
+            <legend>Eğitim Bilgileri</legend>
+            <table>
+                
+                <tbody>
+                    <tr>
+                    <td><p><u>Yüksek Lisans</u> </p> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100"></td>
+                        <td>Okul</td>
+                        <td>:</td>
+                        <td>
+                            <select>
+                                <option>İTÜ</option>
+                                <option>ODTÜ</option>
+                                <option>YTÜ</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100"></td>
+                        <td>Başlangıç Bitiş Tarihi</td>
+                        <td>:</td>
+                       
+                        <td>
+                            <input type="text" name="ylisans" placeholder="gg.aa.yyyy" />-
+                            <input type="text" name="ylisans" placeholder="gg.aa.yyyy" />
+                        </td>
+                       </tr>
+                    <tr>
+                        <td width="100"></td>
+                        <td>Diploma notu</td>
+                        <td>:</td>
+
+                        <td>
+                            <input type="text" name="ylisans" placeholder="Örnek 80.20" />                          </td>
+                    </tr>
+                   
+
+                    <tr>
+                        <td>
+                            <p><u>Lisans</u> </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100"></td>
+                        <td>Okul</td>
+                        <td>:</td>
+                        <td>
+                            <select>
+                                <option>İTÜ</option>
+                                <option>ODTÜ</option>
+                                <option>YTÜ</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100"></td>
+                        <td>Başlangıç Bitiş Tarihi</td>
+                        <td>:</td>
+
+                        <td>
+                            <input type="text" name="lisans" placeholder="gg.aa.yyyy" />-
+                            <input type="text" name="lisans" placeholder="gg.aa.yyyy" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100"></td>
+                        <td>Diploma notu</td>
+                        <td>:</td>
+
+                        <td>
+                            <input type="text" name="lisans" placeholder="Örnek 80.20" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p><u>Lise</u> </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100"></td>
+                        <td>Okul</td>
+                        <td>:</td>
+                        <td>
+                            <select>
+                                <option>Fen Lisesi</option>
+                                <option>Anadolu Lisesi</option>
+                                <option>Düz Lise</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100"></td>
+                        <td>Başlangıç Bitiş Tarihi</td>
+                        <td>:</td>
+
+                        <td>
+                            <input type="text" name="lise" placeholder="gg.aa.yyyy" />-
+                            <input type="text" name="lise" placeholder="gg.aa.yyyy" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="100"></td>
+                        <td>Diploma notu</td>
+                        <td>:</td>
+
+                        <td>
+                            <input type="text" name="lise" placeholder="Örnek 80.20" />
+                        </td>
+                    </tr>
+
+
+                </tbody>
+
+            </table>
+        </fieldset>
+    </form> 
+    <!--Proje ve Burslar-->
+    <form name="burs">
+        <fieldset>
+            <legend>Proje ve Burslar</legend>
+            <table>
+
+                <tr>
+
+                    <td><textarea name="projeveburs" placeholder="Proje ve burslarınız hakkında kısa bir bilgi" cols="30" rows="5"></textarea> </td>
+
+                </tr>
+
+            </table>
+        </fieldset>
+    </form> 
+    <!--Kurs ve Sertifikalar-->
+    <form name="kurs">
+        <fieldset>
+            <legend>Kurs ve Sertifikalar</legend>
+            <table>
+
+                <tr>
+
+                    <td><textarea name="projeveburs" placeholder="Katıldığınız kurs ve sertifikalarınız hakkında kısa bilgi" cols="30" rows="5"></textarea> </td>
+
+                </tr>
+
+            </table>
+        </fieldset>
+    </form> 
+    <!--İletişim Bilgileri-->
+    <form name="iletisim">
+        <fieldset>
+            <legend>İletişim Bilgileri</legend>
+            <table>
+                <tr>
+                    <td>Ev Telefonu</td>
+                    <td>:</td>
+                    <td><input type="text" name="evtel" placeholder="Örnek: 02125555555"/></td>
+
+                </tr>
+                <tr>
+                    <td>Cep Telefonu</td>
+                    <td>:</td>
+                    <td><input type="text" name="ceptel" placeholder="Örnek: 05065555555" /></td>
+
+                </tr>
+                
+
+                <tr>
+                    <td>İl</td>
+                    <td>:</td>
+                    <td><input type="text" name="il" /></td>
+
+                </tr>
+                <tr>
+                    <td>İlçe</td>
+                    <td>:</td>
+                    <td><input type="text" name="ilçe" /></td>
+
+                </tr>
+                <tr>
+                    <td>Adres</td>
+                    <td>:</td>
+                    <td><input type="text" name="adres" /></td>
+
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+    <table>
+        <tr >
+            <td height="20"> </td>
+        </tr>
+        <tr>
+            <td width="1300"></td>
+            <td><input type="button" name="iptal" value="İptal" /></td>
+            <td><input type="submit" name="kaydet" value="Kaydet" /></td>
+        </tr>
+    </table>
+</body>
+</html>
